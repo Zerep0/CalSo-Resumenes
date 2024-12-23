@@ -1,4 +1,4 @@
-# Tema 2
+# Tema 3
 
 ## Introducción
 
@@ -10,7 +10,7 @@ Las revisiones técnicas son el filtro más efectivo para controlar la calidadd 
 
 Vamos a ver una gráfica que explica el coste de las revisiones en función de la etapa en la que se detecta el error:
 
-![Coste de las revisiones](../resources/tema2/revisiones.png)
+![Coste de las revisiones](../resources/tema3/revisiones.png)
 
 Hay dos lineas:
 
@@ -33,7 +33,7 @@ Para estas revisiones, se puede establecer como política de revisión que los p
 
 Según el grado de formalidad, se pueden clasificar en según la Figura 2.
 
-![Tipos de revisiones](../resources/tema2/tiposRevisiones.png)
+![Tipos de revisiones](../resources/tema3/tiposRevisiones.png)
 
 Antes de empezar con los tipos de revisiones, vamos a explicar los roles que intervienen en ellas:
 
@@ -77,7 +77,7 @@ Esto es útil para documentos generales de alto nivel, como especificaciones de 
 
 Es una técnicas de revisión más formal que el walkthrough. Se prepara con antelación y se sigue un procedimiento que veremos a continuación. Ver Figura 3.
 
-![Fases de una revisión formal](../resources/tema2/fases.png)
+![Fases de una revisión formal](../resources/tema3/fases.png)
 
 **Planificación**
 
