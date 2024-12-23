@@ -13,14 +13,13 @@ Vamos a ver una gráfica que explica el coste de las revisiones en función de l
 ![Coste de las revisiones](../resources/tema2/revisiones.png)
 
 Hay dos lineas:
-- **Sin revisiones**: El esfuerzo aumenta a lo largo del ciclo de desarrollo. El mayor punto sucede en las fases de prueba y correción de errores.
 
+- **Sin revisiones**: El esfuerzo aumenta a lo largo del ciclo de desarrollo. El mayor punto sucede en las fases de prueba y correción de errores.
 - **Con revisiones**: Aunque el esfuerzo aumenta en las etapas iniciales, disminuye en las etapas finales. El coste total es menor. Pueden detectar más del 60% de los errores.
 
 Las **revisiones estáticas** generan observaciones y comentarios que permiten detectar errores en etapas tempranas. Esto supone ciertas ventajas:
 
 - Tienes menos interrupciones por errores -> Aumento de la **productividad**.
-
 - Al hacer revisiones continuas, el equipo **participa** e **intercambia** información con el resto del equipo. Esto genera una **conciencia sobre la calidad** del producto.
 
 Para estas revisiones, se puede establecer como política de revisión que los programadores vean con herramientas automáticas zonas del código más propensas a errores. Un ejemplo de estas herramientas son:
@@ -145,6 +144,7 @@ La preparación es más intensiva que en las revisiones formales. Se usan reglas
 Un tercero externo a la organización realiza una evaluación para ver si los productos/procesos software son conformes a las leyes, estándares, guías, etc. Ejemplo de producto: plan de instalación. Ejemplo de proceso: ciclo de vida del software.
 
 **Roles**
+
 - **Iniciador**: ve que es necesario una auditoría. Elabora los alcance/objetivos y designa un auditor líder. Decide las acciones de seguimiento y distribuye el informe de auditoría.
 - **Secretario**: misma función mencionada en las revisiones.
 - **Auditor Lider**: puede ser también el secretario. Planifica y reune a los auditores. Si tiene dudas, discrepancias o inconformidad con los auditores, se las comunica al iniciador. Al final de la auditoría, le entrega un informe de auditoría al iniciador.
@@ -209,6 +209,7 @@ Los pasos que sigue esta metodología son:
 4. **Desarrollo de un plan de acción de gestión de activos de software**: ver que se necesita y formación de los trabajadores en el uso de software.
 
 Hay diferentes tipos de herramientas SAM:
+
 - **Herramientas de gestión de activos**: llevar un inventario del software instalado y documentaciones
 - **Herramientas de detección**: buscar software instalados en el ordenador. Ejemplo: ZENworks® Asset Management.
 - **Herramientas de medición**: controlar frecuencia de uso y ver si la licencia es necesaria
