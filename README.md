@@ -1,0 +1,1 @@
+Estos son todos los resúmenes de los temas que he ido realizando. Si quieres ver el contenido, puedes acceder a la carpeta de cada tema y ver el README.md  / PDF asociado. SOY CONSCIENTE DE QUE TIENE FALTAS DE ORTOGRAFÍA, PERO NO TENGO TIEMPO PARA CORREGIRLAS (FABIÁN CHITÒN).
