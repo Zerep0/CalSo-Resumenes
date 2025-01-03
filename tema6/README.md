@@ -99,7 +99,7 @@ Comprueba que las operaciones y propiedades de una clase funcionan de correctame
 
 - **Pruebas aleatorias**: Secuencia aleatoria de métodos de una clase.
 - **Pruebas de partición**: Categorizas la clase y haces pruebas para cada partición.
-    - **Basado en estados**: Estableces una prueba mínima (secuencia de métodos fijos que van en orden y no cambian) y solo pruebas los métodos que cambian de estado.
+    - **Basado en estados**: Estableces una prueba mínima (secuencia de métodos fijos que van en orden y no cambian) y pruebas tanto los métodos que cambian de estado como los que no mediante una serie de secuencias mínimas.
     - **Basado en atributos**.
     - **Basado en categorías**.
 

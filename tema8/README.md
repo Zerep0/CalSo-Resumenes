@@ -36,3 +36,5 @@
 - Simplificar llamadas a métodos: Minimizar el número de parámetros (preservar objeto completo), reemplazar constructores por métodos factoria. Hacer uso de interfaces.
 - Generalización: Jugar con la herencia y la composición para evitar duplicidades.
 
+ Indice $^{1}$: Usado en la asignatura de Ingeniería del Software de la UGR.
+
