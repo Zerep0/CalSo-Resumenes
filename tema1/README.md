@@ -1,6 +1,6 @@
 # Tema 1: Peopleware
 
-De nada sirve tener un hardware y software potente si no se ssaca el rendimiento de los trabajadores. Se busca productividad en relación a los medios empleados y como estos son aprovechados.
+De nada sirve tener un hardware y software potente si no se saca el rendimiento de los trabajadores. Se busca productividad en relación a los medios empleados y como estos son aprovechados.
 
 ## Introducción
 
@@ -55,18 +55,20 @@ Otros factores que afectan:
     - ![2 trabajos en paralelo](../resources/tema1/2.png)
     - ![3 trabajos en paralelo](../resources/tema1/3.png)
 
-Un método para limitar el número de tareas sería el método Kanban de Strum con WIP (Work in Progress). Este método consiste en tener un tablero con 3 columnas: To do, In Progress, Done. Se puede añadir una columna más para las tareas que se han quedado a medias. Aquí puedes poner como limitación el número de tareas que se pueden tener en la columna In Progress.
+Un método para limitar el número de tareas sería el método Kanban de Scrum con WIP (Work in Progress). Este método consiste en tener un tablero con 3 columnas: To do, In Progress, Done. Se puede añadir una columna más para las tareas que se han quedado a medias. Aquí puedes poner como limitación el número de tareas que se pueden tener en la columna In Progress.
 
 ### No calidad
 
-El cliente establece el nivel de calidad ( aconstumbrados de 1 a 3 defectos cada º00 lineas de código). Bajo presión de tiempo se suele sacrificar la calidad con malas prácticas como duplicación de código o código spaghetti. Más alla de satisfacer la necesidades del usuario final. La calidad del software debe de verse como una forma de mejorar la productividad. Ejemplo: los japoneses piensan que aumentar calidad -> disminuir coste. Otro ejemplo sería HP.
+El cliente establece el nivel de calidad ( aconstumbrados de 1 a 3 defectos cada 100 lineas de código). Bajo presión de tiempo se suele sacrificar la calidad con malas prácticas como duplicación de código o código spaghetti. Más alla de satisfacer la necesidades del usuario final. La calidad del software debe de verse como una forma de mejorar la productividad. Ejemplo: los japoneses piensan que aumentar calidad -> disminuir coste. Otro ejemplo sería HP.
 
 ### Cantidad de personal
 
 Según Putnam:
+
 1. El tamaño óptimo de un equipo es de 5-7 personas.
 2. Los equipos pequeños tienen ventajas sobre los grandes:
-    - El tamaño hace que perder una persona no sea tan grave.
+
+    - El tamaño hace que perder una persona importante no sea tan grave.
     - Los miembros se comunican de forma más cercana y fluida, menos malentendidos y mayor coordinación.
 
 
@@ -98,13 +100,15 @@ En resumen, un equipo productivo debe ser/tener:
 - Multifuncionalidad
 
 ## Modelos de mejora de la calidad
-En otras asignaturas como GPDS ya tratemos con dos de los 3 modelos de mejora de la calidad. Estos son:
+En otras asignaturas como GPDS ya tratemos con 2 de 3 modelos de mejora de la calidad. Estos son:
+
 - Modelo CMMI: Busca mejorar las capacidades de las organizaciones.
 - Modelo PSP: Busca mejorar las capacidades de los individuos.
 
 El tercer modelo es el modelo TSP. Este modelo busca mejorar las actuaciones de los equipos y el enfoque del producto.
 
 **TSP: Team Software Process**
+
 Busca guiar a los ingenieros y a los diretivos en como formar equipos de trabajo y como gestionarlos. Para poder llevarlo a cabo, cada miembro debería tener experiencia previa en PSP.
 
 ## Principios de formación de los equipos
