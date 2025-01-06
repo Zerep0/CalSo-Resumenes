@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Las revisiones técnicas son el filtro más efectivo para controlar la calidadd en el proceso de desarrollo del software. Te permiten ver errores en etapas tempranas y son aplicables a cualquier producto intermedio (requisitos faltantes en SRS, defectos en diseño, código no mantenible, etc.).
+Las revisiones técnicas son el filtro más efectivo para controlar la calidad en el proceso de desarrollo del software. Te permiten ver errores en etapas tempranas y son aplicables a cualquier producto intermedio (requisitos faltantes en SRS, defectos en diseño, código no mantenible, etc.).
 
 - `Norma IEEE 1020-2008` Un estándar que proporciona directrices sobre revisiones, auditorías y métodos relacionados con la calidad del software.
 
@@ -102,7 +102,7 @@ Si no se cumplen los criterios de entrada, se pospone la revisión y si no se cu
 Es opcional pero muy recomendable. Conviertes a los revisores más efectivos.
 
 1. Compruebas que todos comparten las mismas ideas en relación al documento.
-2. Se introduce a los revisores sobre cuales son los objetivosde la revisión, cuales son los aspectos a tratar y los documentos a revisar. Estos pueden discutir los aspectos impuestos en la planificación.
+2. Se introduce a los revisores sobre cuales son los objetivos de la revisión, cuales son los aspectos a tratar y los documentos a revisar. Estos pueden discutir los aspectos impuestos en la planificación.
 
 **Preparación**
 
