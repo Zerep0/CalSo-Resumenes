@@ -18,7 +18,7 @@ El estándar `IEEE 829-2008` muestra directrices para la documentación de prueb
 **Características de las estrategias**
 
 1. Deberían de hacer revisiones técnicas antes de las pruebas para reducir el número de errores. 
-2. Deberían de ser realizadas por personal que no haya participado en el desarrollo del software. 
+2. Deberían de ser realizadas por personal que haya participado en el desarrollo del software. 
 3. Se empieza probando los componentes hasta llegar a la prueba del sistema completo. 
 4. Las pruebas dependerán del modelo de desarrollo del software. 
 5. Las estrategias de pruebas deben ofrecer una orientación clara y detallada sobre cómo realizar las pruebas además de marcar puntos específicos en el proceso de pruebas que permitan a los directivos evaluar el progreso.
@@ -57,7 +57,7 @@ Ejemplos de frameworks de pruebas son **JUnit**, **TestNG**, etc.
 
 ### Pruebas de unidad
 
-Se centran en la unidad lógica más pequeña: módulo/componente (en OO, hablamos de una clase). En OO, hablamos de pruebas de clase como su equivalencia. Si los módulos son independientes, se pueden probar de forma aislada en paralelo. El creador del módulo suele realizar los tests centrandose en cubrir todos los caminos independientes básicos y los caminos de error. Debe comprar que se hace una correcta gestión de los errores evaluando el módulo tanto en límites válidos como no válidos. Durante el proceso de prueba, se debe comprobar la entrada y salida junto con la integridad de los datos locales en la ejecución.
+Se centran en la unidad lógica más pequeña: módulo/componente (en OO, hablamos de una clase). En OO, hablamos de pruebas de clase como su equivalencia. Si los módulos son independientes, se pueden probar de forma aislada en paralelo. El creador del módulo suele realizar los tests centrandose en cubrir todos los caminos independientes básicos y los caminos de error. Debe comprobar que se hace una correcta gestión de los errores evaluando el módulo tanto en límites válidos como no válidos. Durante el proceso de prueba, se debe comprobar la entrada y salida junto con la integridad de los datos locales en la ejecución.
 
 Un enfoque práctico consiste en realizar los test previamente a la creación del módulo. De esta forma el código se va desarrollando buscando que los test sean aceptados. Esto obliga a generar stubs y drivers para simular el comportamiento de los módulos que aún no han sido implementados.
 
@@ -78,7 +78,8 @@ Aquella que es `ACRI`: Automática, Cobertura, Repetible e Independiente.
 Técnica de generación de pruebas para comprobar la interacción entre módulos. Hay que identificar los módulos críticos y los que tienen más dependencias.
 
 **¿Cúando un módulo es crítico?**
-- Cuando tiene varios requisitos software o de rendimiento, es complejo o propenso a errores. Hay dos enfoques:
+
+Cuando tiene varios requisitos software o de rendimiento, es complejo o propenso a errores. Hay dos enfoques:
 
 #### Enfoque BIG BANG
 
@@ -131,16 +132,17 @@ Estos enfoques no tienen sentido en OO. Se sigue un tipo de pruebas distinto:
 ### Pruebas de validación o aceptación
 
 Se realizan para comprobar que el software cumple con los requisitos del cliente. Pueden ocurrir dos situaciones:
+
 - **Características correctas**: se acepta el software.
-- **Característics ligeramente diferents**: Se anota los defectos en una **lista de deficiencias**. Al ser la parte final del proceso de desarrollo, se espera que esta lista sea corta y raramente se pueden arreglar antes de entregarlo.
+- **Características ligeramente diferentes**: Se anota los defectos en una **lista de deficiencias**. Al ser la parte final del proceso de desarrollo, se espera que esta lista sea corta y raramente se pueden arreglar antes de entregarlo.
 
 A diferencia de con las otras dos pruebas, en esta no hay distinción entre tradicional y OO.
 
-Hay dos tipos de pruebas: **alfa** y **beta**. Ambas se realizan con la intención de encontrar errores y problemas de uso. La diferencia es que la primera se realiza en el entorno del desarrollador y la segunda en el entorno del cliente. Esos errores hacen que el software se modifique y se vuelva a probar en las beta por parte del cliente. 
+Hay dos tipos de pruebas: **alfa** y **beta**. Ambas se realizan con la intención de encontrar errores y problemas de uso. La diferencia es que la primera se realiza en el entorno del desarrollador mirando por encima del hombro al usuario y la segunda en el entorno del cliente que informa al desarrollador de errores. Esos errores hacen que el software se modifique y se vuelva a probar en las beta por parte del cliente. 
 
 **Automatización de pruebas**
 
-Las anteriores pruebas eran más fáciles de automatizar, pero estas lo son por el hecho de hacer uso de humanos. Una alternativa es **BDD** (Behavior Driven Development) que se basa en la creación de pruebas que describen el comportamiento del sistema. Para la creación de estas participan cliente, desarrollador y testers en la cración de escenarios y pruebas de aceptación. Se utilizan herramientas como **Cucumber** o **JBehave**.
+Las anteriores pruebas eran más fáciles de automatizar, pero estas no lo son por el hecho de hacer uso de humanos. Una alternativa es **BDD** (Behavior Driven Development) que se basa en la creación de pruebas que describen el comportamiento del sistema. Para la creación de estas participan cliente, desarrollador y testers en la creación de escenarios y pruebas de aceptación. Se utilizan herramientas como **Cucumber** o **JBehave**.
 
 ### Pruebas de sistema
 
@@ -182,5 +184,5 @@ Hay ciertas estrategias para la depuración:
 
 - **Fuerza bruta**: método común pero ineficiente que usa memoria, trazas o mensajes para identificar errores. Ejemplo: printf("error de mierda").
 - **Backtracking**: retrocede desde el error hasta encontrar la causa, ideal para programas pequeños.
-- **Eliminación de la causa**: organiza datos del error para probar hipótesis y descartar posibles causas.
+- **Eliminación de la causa**: organiza datos relacionados con el error para probar hipótesis y descartar posibles causas.
 
