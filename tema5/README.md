@@ -135,6 +135,7 @@ o un operador lógicos:
 Se debe probar cada condición del programa para asegurar que no contiene errores. 
 
 **Guía para las pruebas de condición**:
+
 - Para tipos ordenados se comprueba si es menor, igual o mayor. (3 pruebas)
 - Para tipos no ordenados se comprueba si es igual o diferente. (2 pruebas)
 - Para operadores lógicos se comprueba si es verdadero o falso. (2 pruebas)
@@ -161,6 +162,7 @@ Selecciona caminos de prueba en función de la **definición** (escritura) y **u
 ```
 
 2. Esto se hace para comprobar cadenas definición-uso (DU), por ejemplo [x, S, S']:
+
 - **x** es una variable que se define en una sentencia solo una vez durante ese rango.
 - **S** la sentencia donde la variable x se define.
 - **S'** la sentencia donde la variable x se utiliza.
@@ -173,6 +175,7 @@ Se debe garantizar que cada cadena definición-uso se ejecuta al menos una vez c
 ### Pruebas de bucles
 
 Solo se centra en la validez de los bucles. Según el tipo de bucle se realiza una acción diferente:
+
 - **Bucle simple**: probar las posibles combinaciones posibles de los bucles, con n iteraciones:
     - No se ejecuta el bucle.
     - Se ejecuta una vez.
@@ -194,9 +197,10 @@ Las pruebas de caja negra se centran en derivar casos de prueba basados en los r
 
 ### Particiones de equivalencia
 
-Una **clase de equivalencia** es un conjunto de estados válidos o inválidos para una entrada. Este método consiste en difividir el dominio de entrada en clases de este tipo. Se asume que si una condición falla, todas las demás también lo harán.
+Una **clase de equivalencia** es un conjunto de estados válidos o inválidos para una entrada. Este método consiste en dividir el dominio de entrada en clases de este tipo. Se asume que si una condición falla, todas las demás también lo harán.
 
 **Guía para las particiones de equivalencia**:
+
 - Cuando hay un rango o un valor específico, se hacen una clase válida y dos inválidas. Ejemplo: rango de 1 a 100, clase valida sería entre 1 y 100, y las inválidas serían menor a 1 y mayor a 100.
 - Si la condición es un elemento de un conjunto o un booleano, se define una clase válida y una inválida. Ejemplo: si es un booleano, una clase sería verdadero y la otra falso.
 - Todas las clases deben estar enumeradas, combinar clases válidas con una inválida.
